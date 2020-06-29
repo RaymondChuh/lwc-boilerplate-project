@@ -1,3 +1,7 @@
 {
-  "extends": ["@salesforce/eslint-config-lwc/recommended"]
+  "extends": ["@salesforce/eslint-config-lwc/recommended"],
+  "rules": {
+    "camelcase": ["error", { "properties": "always" }],
+    "brace-style": "error"
+  }
 }

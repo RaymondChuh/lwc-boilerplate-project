@@ -8,6 +8,7 @@
     "dev:server": "sfdx force:lightning:lwc:start",
     "lint": "npm run lint:lwc",
     "lint:lwc": "eslint force-app/main/default/lwc",
+    "lint:aura": "sfdx force:lightning:lint force-app/main/default/aura --exit",
     "test": "npm run test:unit",
     "test:unit": "sfdx-lwc-jest",
     "test:unit:watch": "sfdx-lwc-jest --watch",
